@@ -1,0 +1,26 @@
+header{
+    height: 70px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+header img {
+    width: 2.4rem;
+}
+
+header h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* .header-line{
+    width: 100%;
+    margin-top: 1rem;
+    height: 1px;
+
+} */

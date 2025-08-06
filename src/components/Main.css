@@ -1,0 +1,164 @@
+/* ✅ Base styles for mobile (default) */
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  padding: 30px 20px;
+  min-height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.ingridient-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  color: gray;
+  border-radius: 5px;
+  border: 1px solid gray;
+  flex-grow: 1;
+}
+
+.ingridient-btn {
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ingridient-btn:hover {
+  background-color: #333;
+}
+
+ul.ingredients-list {
+  margin-bottom: 48px;
+  padding-left: 20px;
+}
+
+ul.ingredients-list > li {
+  color: #475467;
+  line-height: 28px;
+}
+
+.get-recipe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 8px;
+  background: #F0EFEB;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.get-recipe-container h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.get-recipe-container button {
+  border: none;
+  border-radius: 6px;
+  background: #D17557;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #FAFAF8;
+  padding: 9px 17px;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+.suggested-recipe-container ul li,
+.suggested-recipe-container ol li {
+  margin-bottom: 8px;
+}
+
+
+/* ✅ Tablet and up (≥768px) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  main {
+    padding: 60px 80px;
+  }
+
+  form {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .ingridient-btn {
+    width: 200px;
+    font-size: 1rem;
+  }
+
+  .get-recipe-container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .suggested-recipe-container {
+    width: 720px;
+    font-size: 1.125rem;
+  }
+}
+
+
+/* ✅ Desktop and up (≥992px) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .suggested-recipe-container {
+    width: 850px;
+  }
+
+  .get-recipe-container {
+    width: 740px;
+  }
+}
+
+
+/* ✅ Extra large screens (≥1200px) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
