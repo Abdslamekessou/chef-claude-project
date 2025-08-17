@@ -43,13 +43,12 @@ npm run dev
 
 Open http://localhost:3000 in your browser to view the app.
 
-### How to Use:
+## How to Use
+1. Enter at least **4 ingredients** into the input field.
+2. Click the **Get Recipe** button.
+3. An AI-generated recipe will appear below.
+4. Try different ingredient combinations for fun and creative results!
 
-1 - Enter at least a few ingredients into the input field.
-
-2 - Submit the form to see the AI-generated recipe appear below.
-
-3 - Experiment with different ingredient combinations for varied suggestions.
 
 
 
