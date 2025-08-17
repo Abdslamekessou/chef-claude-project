@@ -1,16 +1,59 @@
-# React + Vite
+# Chef Claude Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chef Claude** — Your friendly AI-powered recipe generator.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+Check out the live version: [chef-claude-sepia.vercel.app](https://chef-claude-sepia.vercel.app) :contentReference[oaicite:0]{index=0}
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Overview
+This is a React + Vite web application that helps generate recipes based on your available ingredients. Built using modern tooling, it showcases a responsive UI and seamless development experience with features like hot module replacement.
+
+---
+
+## Features
+- **AI-Powered Recipe Generation**: Enter a few ingredients, and get a creative recipe suggestion instantly.
+- Built with **React** and bundled via **Vite** for fast development and optimized builds. :contentReference[oaicite:1]{index=1}
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14+ recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Abdslamekessou/chef-claude-project.git
+   cd chef-claude-project
+   
+2 -Install dependencies:
+```bash
+npm install
+
+```
+3-Run the development server:
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 in your browser to view the app.
+
+### How to Use:
+
+1 - Enter at least a few ingredients into the input field.
+
+2 - Submit the form to see the AI-generated recipe appear below.
+
+3 - Experiment with different ingredient combinations for varied suggestions.
 
 
-Live Server : chef-claude-sepia.vercel.app
+
+### Attribution:
+
+This project was built as part of my learning journey from freeCodeCamp, where I honed my skills in React, Vite, and AI integration. Thank you, freeCodeCamp, for the inspiration!
 
