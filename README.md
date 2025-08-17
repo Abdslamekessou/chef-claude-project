@@ -5,7 +5,7 @@
 ---
 
 ## Demo
-Check out the live version: [chef-claude-sepia.vercel.app](https://chef-claude-sepia.vercel.app) :contentReference[oaicite:0]{index=0}
+Check out the live version: [chef-claude-sepia.vercel.app](https://chef-claude-sepia.vercel.app) 
 
 ---
 
@@ -16,7 +16,7 @@ This is a React + Vite web application that helps generate recipes based on your
 
 ## Features
 - **AI-Powered Recipe Generation**: Enter a few ingredients, and get a creative recipe suggestion instantly.
-- Built with **React** and bundled via **Vite** for fast development and optimized builds. :contentReference[oaicite:1]{index=1}
+- Built with **React** and bundled via **Vite** for fast development and optimized builds. 
 ---
 
 ## Getting Started
